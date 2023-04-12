@@ -1,5 +1,4 @@
-Logger
-------------
+# Logger
 
 This app can write logs in file, database table and mail. 
 If you want to extend base functionality you can write custom Loggers which must to inherit base Logger class   
