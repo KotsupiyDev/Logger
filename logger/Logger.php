@@ -12,7 +12,7 @@ class Logger implements LoggerInterface
 
     public function __construct()
     {
-        $this->options = require __DIR__ . '/../config/logger.php';
+        $this->options = \Yii::$app->params['logger'];
         $this->setDefaultValue();
     }
 
