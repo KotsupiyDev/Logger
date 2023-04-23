@@ -2,6 +2,10 @@
 
 use yii\helpers\Html;
 
+/**
+ * @var $loggersResponse array
+ */
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -30,7 +34,7 @@ use yii\helpers\Html;
 </html>
 <div>
     <ul class="list">
-        <?php foreach ($loggersResponse as $key => $response) :?>
+        <?php foreach ($loggersResponse  as $key => $response) :?>
             <li class="item"><?php echo $key+1 . ') '; echo $response; ?></li>
         <?php endforeach; ?>
     </ul>
